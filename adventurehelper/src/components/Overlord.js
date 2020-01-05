@@ -9,7 +9,7 @@ const Overlord=(props)=>{
     if(!isLoggedin){
         return(<Login />);
     }
-    else return <Mainpage />
+    else return <Mainpage username={username} />
 }
 export default Overlord;
 
