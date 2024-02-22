@@ -1,15 +1,14 @@
-import React from 'react';
-import 'bootstrap/dist/css/bootstrap.min.css';
-import Overlord from './components/Overlord';
+import React from "react";
+import "bootstrap/dist/css/bootstrap.min.css";
+import Overlord from "./components/Overlord";
 
 function App() {
   return (
     <div>
-      <header> 
+      <header>
         <h2>this is the app header</h2>
       </header>
       <Overlord />
-      
     </div>
   );
 }
